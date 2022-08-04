@@ -6,7 +6,8 @@
 <br>
 <form method="post" action ="<?php echo base_url ('anggota/tambah_data_anggota'); ?>">
   <div class="from-gruop row">
-    <label for="kd_p" class="col-sm-2 col-form-label">kode provinsi</label>
+    <label for="kd_p" class="col-sm-2 col-form-label" >kode provinsi</label>
+    
     <div class = "col-sm-5">
     <!-- <input type="number" class="from-control" name="kd_p"> -->
     <select name="kd_p" id="kd_p">

@@ -97,6 +97,12 @@
   </div>
 </div>
 <div class="from-gruop row">
+    <label for="alamat" class="col-sm-2 col-form-label">tahun</label>
+    <div class = "col-sm-5">
+    <input type="text" class="from-control" name="tahun">
+  </div>
+</div>
+<div class="from-gruop row">
     <label for="" class="col-sm-2 col-form-label"></label>
     <div class = "col-sm-5">
     <button type="submit" class="btn btn-primary">SIMPAN</button>

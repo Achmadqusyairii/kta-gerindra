@@ -27,6 +27,7 @@
       <td>NIK</td>
       <td>KTA</td>
       <td>ALAMAT</td>
+      <td>TAHUN</td>
       <td>AKSI</td>
       </tr>
       </thead>
@@ -46,6 +47,7 @@
       <td><?php echo $anggota['nik']; ?></td>
       <td><?php echo $anggota['no_kta']; ?></td>
       <td><?php echo $anggota['alamat']; ?></td>
+      <td><?php echo $anggota['tahun']; ?></td>
       
     <td>
       <a href="<?php echo base_url() ?>anggota/detail/<?php echo $anggota['id']; ?>" class="badge badge-primary"><i class="fas fa-search"></i></a>

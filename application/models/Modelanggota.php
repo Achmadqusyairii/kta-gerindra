@@ -21,6 +21,7 @@ public function tambah_data_anggota()
 			"nik"=> $this->input->post('nik'),
 			"no_kta"=> $this->input->post('kta'),
 			"alamat"=> $this->input->post('alamat'),
+			"tahun"=> $this->input->post('tahun'),
 		];
 		$this->db->insert('tbl_anggota', $data);
 	}
@@ -48,6 +49,7 @@ public function tambah_data_anggota()
 			"nik"=> $this->input->post('nik'),
 			"no_kta"=> $this->input->post('kta'),
 			"alamat"=> $this->input->post('alamat'),
+			"tahun"=> $this->input->post('tahun'),
 		];
 		$this->db->where('id', $this->input->post('id'));
 		$this->db->update('tbl_anggota', $data);
